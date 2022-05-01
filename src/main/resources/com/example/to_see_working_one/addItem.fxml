@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="720.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.addItemController">
+   <children>
+      <AnchorPane prefHeight="74.0" prefWidth="720.0" style="-fx-background-color: #0d47a1;">
+         <children>
+            <Label layoutX="302.0" layoutY="22.0" text="Let Me Clean" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="252.0" layoutY="215.0" text="No Tasks For Today, yet!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="addButton" fitHeight="74.0" fitWidth="110.0" layoutX="323.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Desktop/assets/add_task_50.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
